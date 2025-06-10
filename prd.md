@@ -12,6 +12,10 @@ The Darwin Gödel Machine represents a paradigm shift from traditional self-modi
 - [The Decoder: DGM Analysis](https://the-decoder.com/sakana-ais-darwin-godel-machine-evolves-by-rewriting-its-own-code-to-boost-performance/)
 - [Richard CS Uwandi's DGM Blog](https://richardcsuwandi.github.io/blog/2025/dgm/)
 - [Evolutionary Algorithms Overview](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
+- [Self-Modifying Code in Machine Learning](https://arxiv.org/abs/2211.07082)
+- [Automated Programming: Historical Perspectives](https://dl.acm.org/doi/10.1145/3485132)
+- [Genetic Programming Introduction](https://www.genetic-programming.com/)
+- [Code Generation with Large Language Models](https://arxiv.org/abs/2107.03374)
 
 ## Core DGM architecture adapts elegantly to VSCode constraints
 
@@ -35,6 +39,11 @@ Git-based versioning maintains the evolutionary history, enabling safe experimen
 - [VSCode Extension Capabilities](https://code.visualstudio.com/api/extension-capabilities/common-capabilities)
 - [VSCode Documentation](https://vscode-docs.readthedocs.io/en/stable/extensions/our-approach/)
 - [VSCode GitHub Issues](https://github.com/microsoft/vscode/issues/59756)
+- [VSCode Extension API](https://code.visualstudio.com/api)
+- [VSCode Extension Samples](https://github.com/Microsoft/vscode-extension-samples)
+- [TypeScript VSCode Extension Development](https://code.visualstudio.com/api/get-started/your-first-extension)
+- [VSCode Webview API](https://code.visualstudio.com/api/extension-guides/webview)
+- [VSCode Extension Testing](https://code.visualstudio.com/api/working-with-extensions/testing-extension)
 
 ## Roo-cline provides robust foundation for agent orchestration
 
@@ -95,6 +104,13 @@ class SecureEvolutionEngine {
   }
 }
 ```
+
+### Security and Sandbox References
+- [vm2 NodeVM Security](https://github.com/patriksimek/vm2)
+- [JavaScript Sandbox Security](https://blog.risingstack.com/writing-a-javascript-framework-sandboxed-code-evaluation/)
+- [Node.js Security Best Practices](https://nodejs.org/en/docs/guides/security/)
+- [VSCode Extension Security](https://code.visualstudio.com/api/references/extension-manifest#contributes.commands)
+- [Code Injection Prevention](https://owasp.org/www-community/attacks/Code_Injection)
 
 ### Memory-Efficient Population Management
 
@@ -227,30 +243,3 @@ Integrating Darwin Gödel Machine principles with roo-cline's robust agent archi
 The phased implementation approach ensures manageable complexity while delivering early value. By starting with basic telemetry and simple mutations, then expanding to full autonomous evolution, teams can build confidence in the system while gathering real-world performance data.
 
 This architecture represents the future of development tools - not static utilities, but living systems that grow and adapt alongside their users, discovering new ways to enhance productivity through evolutionary exploration. The convergence of DGM's theoretical insights with practical VSCode extension development opens unprecedented possibilities for AI-augmented software engineering.
-
-## References
-
-### Core Darwin Gödel Machine Research
-- [Sakana AI Darwin Gödel Machine](https://sakana.ai/dgm/) - Official project page and research overview
-- [Darwin Gödel Machine Research Paper](https://www.researchgate.net/publication/392204438_Darwin_Godel_Machine_Open-Ended_Evolution_of_Self-Improving_Agents) - Primary research publication
-- [The Decoder: DGM Analysis](https://the-decoder.com/sakana-ais-darwin-godel-machine-evolves-by-rewriting-its-own-code-to-boost-performance/) - Technical analysis and implications
-- [Richard CS Uwandi's DGM Blog](https://richardcsuwandi.github.io/blog/2025/dgm/) - Implementation insights and case studies
-
-### Roo-Cline and VSCode Extension Development
-- [Roo-Cline Official Site](https://roocline.dev/) - Main project documentation
-- [Roo-Code GitHub Repository](https://github.com/qpd-v/Roo-Code) - Source code and architecture
-- [Cline GitHub Repository](https://github.com/cline/cline) - Original cline project
-- [Roo-Code Architecture Documentation](https://deepwiki.com/RooVetGit/Roo-Code/2-architecture) - Detailed architectural overview
-- [VSCode Extension Capabilities](https://code.visualstudio.com/api/extension-capabilities/common-capabilities) - Official extension development guide
-- [VSCode Documentation](https://vscode-docs.readthedocs.io/en/stable/extensions/our-approach/) - Extension development best practices
-- [VSCode GitHub Issues](https://github.com/microsoft/vscode/issues/59756) - Relevant technical discussions
-
-### AI Agents and Software Development
-- [AI Agents in SDLC](https://waydev.co/ai-agents-in-sdlc/) - Integration of AI agents in software development lifecycle
-- [Business Use Cases for AI Agents](https://www.cio.com/article/3843379/5-top-business-use-cases-for-ai-agents.html) - Enterprise applications and benefits
-- [IBM AI Agents Overview](https://www.ibm.com/think/topics/ai-agents) - Comprehensive overview of AI agent capabilities
-- [AI Agent Case Studies](https://www.multimodal.dev/post/useful-ai-agent-case-studies) - Real-world implementation examples
-- [AI-Powered Software Engineering](https://www.reply.com/en/ai-powered-software-engineering/ai-for-software-development-lifecycle) - Industry applications and trends
-
-### Foundational Concepts
-- [Evolutionary Algorithms Overview](https://en.wikipedia.org/wiki/Evolutionary_algorithm) - Core evolutionary computation principles
