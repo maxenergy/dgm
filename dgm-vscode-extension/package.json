@@ -88,7 +88,7 @@
           "type": "number",
           "default": 0.7,
           "minimum": 0.1,
-          "maximum": 1.0,
+          "maximum": 1,
           "description": "Crossover rate for evolution"
         },
         "dgm.security.sandboxEnabled": {
@@ -98,7 +98,11 @@
         },
         "dgm.security.permissionLevel": {
           "type": "string",
-          "enum": ["strict", "moderate", "permissive"],
+          "enum": [
+            "strict",
+            "moderate",
+            "permissive"
+          ],
           "default": "moderate",
           "description": "Security permission level"
         },
@@ -114,7 +118,12 @@
         },
         "dgm.llm.provider": {
           "type": "string",
-          "enum": ["openai", "anthropic", "openrouter", "auto"],
+          "enum": [
+            "openai",
+            "anthropic",
+            "openrouter",
+            "auto"
+          ],
           "default": "auto",
           "description": "LLM provider selection"
         },
@@ -201,9 +210,11 @@
     "clean": "rimraf out *.vsix"
   },
   "devDependencies": {
+    "@babel/parser": "^7.27.5",
+    "@babel/traverse": "^7.27.4",
     "@types/glob": "^8.1.0",
     "@types/jest": "^29.5.11",
-    "@types/node": "20.x",
+    "@types/node": "^20.19.0",
     "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
@@ -221,13 +232,13 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.9.1",
-    "openai": "^4.24.1",
-    "vm2": "^3.9.19",
     "axios": "^1.6.2",
-    "uuid": "^9.0.1",
     "diff": "^5.1.0",
     "lru-cache": "^10.1.0",
+    "openai": "^4.24.1",
     "p-queue": "^8.0.1",
+    "uuid": "^9.0.1",
+    "vm2": "^3.9.19",
     "zod": "^3.22.4"
   },
   "activationEvents": [
